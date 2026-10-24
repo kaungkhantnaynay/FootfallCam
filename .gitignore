@@ -1,0 +1,17 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+work/
+results/
+docs/
+data/input/*
+data/reference/*.pdf
+data/reference/brief-image-*.png
+models/*.pt
+models/tag_verifier_reference_only.joblib
+models/tag_verifier_reference_only_manifest.json
+configs/reference-only-baseline.json
+.DS_Store

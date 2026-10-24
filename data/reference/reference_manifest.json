@@ -1,0 +1,37 @@
+{
+  "source": "assessment.pdf",
+  "source_sha256": "4a2707b837467c8d6b58fa2d883639c6686e6f1f4337cd08403aa89258dea067",
+  "purpose": "Employer-provided tag references, not training labels",
+  "patches": [
+    {
+      "path": "tag-detail.png",
+      "pdf_image_index": 0,
+      "crop_xyxy": [
+        112,
+        74,
+        151,
+        101
+      ]
+    },
+    {
+      "path": "tag-dark-example.png",
+      "pdf_image_index": 1,
+      "crop_xyxy": [
+        87,
+        98,
+        111,
+        112
+      ]
+    },
+    {
+      "path": "tag-light-example.png",
+      "pdf_image_index": 2,
+      "crop_xyxy": [
+        48,
+        110,
+        73,
+        122
+      ]
+    }
+  ]
+}

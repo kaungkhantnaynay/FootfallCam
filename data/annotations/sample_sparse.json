@@ -1,0 +1,73 @@
+{
+  "source_sha256": "0396717408f39d65d662d937c969dee8545258ab0b8004babcc0cebeabbc6daa",
+  "scope": "Assistant-reviewed sparse calibration-consistency checks only. All five labelled frames overlap verifier calibration. Three other frames remain uncertain. No independent detection accuracy is measured.",
+  "position_gate_px": 100,
+  "frames": [
+    {
+      "frame_index": 0,
+      "staff_present": false,
+      "centres": [],
+      "note": "Development negative, reused for verifier calibration"
+    },
+    {
+      "frame_index": 100,
+      "staff_present": false,
+      "centres": [],
+      "note": "Development negative, reused for verifier calibration"
+    },
+    {
+      "frame_index": 200,
+      "staff_present": false,
+      "centres": [],
+      "note": "Development negative, reused for verifier calibration"
+    },
+    {
+      "frame_index": 425,
+      "staff_present": true,
+      "centres": [
+        [
+          515,
+          645
+        ]
+      ],
+      "note": "Light-shirt tag visible near bottom; centre estimated from visible person extent; a tag patch from this frame is used in calibration"
+    },
+    {
+      "frame_index": 850,
+      "staff_present": true,
+      "centres": [
+        [
+          642,
+          105
+        ]
+      ],
+      "note": "Dark-shirt tagged walker near upper-right; approximate box centre; a tag patch from this frame is used in calibration"
+    },
+    {
+      "frame_index": 1050,
+      "staff_present": null,
+      "centres": [],
+      "note": "Identity not assigned from this still alone; review continuous footage"
+    },
+    {
+      "frame_index": 1125,
+      "staff_present": null,
+      "centres": [],
+      "note": "Identity not assigned from this still alone; review continuous footage"
+    },
+    {
+      "frame_index": 1325,
+      "staff_present": null,
+      "centres": [],
+      "note": "Identity not assigned from this still alone; review continuous footage"
+    }
+  ],
+  "evaluation_type": "calibration_consistency",
+  "calibration_overlap_frames": [
+    0,
+    100,
+    200,
+    425,
+    850
+  ]
+}

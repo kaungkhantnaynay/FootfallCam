@@ -1,0 +1,34 @@
+{
+  "model": "models/yolo11n.pt",
+  "device": "cpu",
+  "image_size": 960,
+  "person_confidence": 0.2,
+  "detector_rotations": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "tag_stride": 3,
+  "tag_threshold": 0.76,
+  "verifier": "models/tag_verifier.joblib",
+  "verifier_margin": 0.0,
+  "acquisition_motion_px": 25.0,
+  "min_track_travel_px": 100.0,
+  "tag_widths": [
+    16,
+    20,
+    24,
+    28,
+    34,
+    40
+  ],
+  "rotation_step": 15,
+  "min_tag_std": 8.0,
+  "min_person_size": 35,
+  "max_track_gap_s": 0.32,
+  "confirm_hits": 3,
+  "confirm_window_s": 0.8,
+  "evidence_ttl_s": 1.5,
+  "offline_backfill_s": 8.0
+}

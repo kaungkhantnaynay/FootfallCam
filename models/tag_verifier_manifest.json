@@ -1,0 +1,229 @@
+{
+  "seed": 42,
+  "positive_count": 2800,
+  "negative_count": 7752,
+  "source_sha256": "0396717408f39d65d662d937c969dee8545258ab0b8004babcc0cebeabbc6daa",
+  "positive_source": "Three PDF tag crops plus two explicitly labelled sample tag patches, augmented locally",
+  "negative_source": "Development negatives at 0, 4, 8 seconds plus explicitly labelled sample hard negatives",
+  "holdout_claim": "None: this is calibration, not an independent dataset",
+  "features": "24x16 normalized grayscale",
+  "kernel": "RBF",
+  "C": 8,
+  "gamma": 0.005,
+  "additional_calibration": {
+    "source_sha256": "0396717408f39d65d662d937c969dee8545258ab0b8004babcc0cebeabbc6daa",
+    "scope": "Additional assistant-reviewed sample-clip calibration patches. Not independent validation. Candidate review required.",
+    "patches": [
+      {
+        "file": "positive-light.png",
+        "label": 1,
+        "frame_index": 425,
+        "box_xyxy": [
+          503,
+          693,
+          525,
+          708
+        ],
+        "inverse_rotation_deg": 15,
+        "canonical_width": 20,
+        "canonical_height": 10,
+        "review": "Assistant visual review: tag pattern visible; development example"
+      },
+      {
+        "file": "positive-dark.png",
+        "label": 1,
+        "frame_index": 850,
+        "box_xyxy": [
+          651,
+          77,
+          675,
+          98
+        ],
+        "inverse_rotation_deg": 330,
+        "canonical_width": 20,
+        "canonical_height": 12,
+        "review": "Assistant visual review: tag pattern visible; development example"
+      },
+      {
+        "file": "negative-000.png",
+        "label": -1,
+        "frame_index": 24,
+        "box_xyxy": [
+          678,
+          604,
+          691,
+          622
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-001.png",
+        "label": -1,
+        "frame_index": 42,
+        "box_xyxy": [
+          678,
+          604,
+          691,
+          622
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-002.png",
+        "label": -1,
+        "frame_index": 54,
+        "box_xyxy": [
+          680,
+          605,
+          690,
+          621
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-003.png",
+        "label": -1,
+        "frame_index": 78,
+        "box_xyxy": [
+          755,
+          183,
+          765,
+          199
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-004.png",
+        "label": -1,
+        "frame_index": 90,
+        "box_xyxy": [
+          751,
+          181,
+          772,
+          216
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-005.png",
+        "label": -1,
+        "frame_index": 123,
+        "box_xyxy": [
+          755,
+          182,
+          765,
+          198
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-006.png",
+        "label": -1,
+        "frame_index": 138,
+        "box_xyxy": [
+          755,
+          183,
+          765,
+          199
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-007.png",
+        "label": -1,
+        "frame_index": 162,
+        "box_xyxy": [
+          752,
+          177,
+          765,
+          195
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-008.png",
+        "label": -1,
+        "frame_index": 846,
+        "box_xyxy": [
+          627,
+          524,
+          642,
+          549
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-009.png",
+        "label": -1,
+        "frame_index": 864,
+        "box_xyxy": [
+          617,
+          505,
+          630,
+          523
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-010.png",
+        "label": -1,
+        "frame_index": 1221,
+        "box_xyxy": [
+          372,
+          98,
+          400,
+          131
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-011.png",
+        "label": -1,
+        "frame_index": 1257,
+        "box_xyxy": [
+          342,
+          134,
+          351,
+          150
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-012.png",
+        "label": -1,
+        "frame_index": 1284,
+        "box_xyxy": [
+          338,
+          138,
+          350,
+          156
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-013.png",
+        "label": -1,
+        "frame_index": 1314,
+        "box_xyxy": [
+          752,
+          355,
+          769,
+          378
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      },
+      {
+        "file": "negative-014.png",
+        "label": -1,
+        "frame_index": 1323,
+        "box_xyxy": [
+          637,
+          487,
+          662,
+          515
+        ],
+        "review": "Assistant visual review: seated visitor/background pattern, not the staff tag; development hard negative"
+      }
+    ]
+  }
+}
